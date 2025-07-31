@@ -1,3 +1,5 @@
+package Desafio1;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -9,7 +11,7 @@ public class Main {
         p1.vender(3);
         p1.adicionarEstoque(5);
         p1.exibirResumo();
-
+        System.out.println("----------------");
         p2.exibirResumo();
         p2.vender(1);
         p2.adicionarEstoque(10);
